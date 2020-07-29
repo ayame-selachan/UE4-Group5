@@ -1096,3 +1096,52 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.29-03.17.00:068][598]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2020.07.29-03.17.00:569][598]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2020.07.29-03.17.01:069][598]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.07.29-03.17.01:570][598]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.07.29-03.17.02:070][598]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B23F60CD4-4D69-C1A6-3466-A69F4D268C83%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=a28970c745e2e627172c6394a2dc295d%7Cf1839018629842d2a0d83bfefc43872f%7C6c9e093b-2cba-476c-b703-4b3694d5150d&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fee8687f70 [can pipeline])
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.234.56.61) port 443 (#2))
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.29-03.17.02:571][598]LogHttp: Warning: 000001FEA4C5F900: libcurl info message cache 7 (Closing connection 2)
+[2020.07.29-03.17.02:591][598]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.07.29-03.17.02:591][598]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.07.29-03.17.02:642][598]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.07.29-03.17.02:643][598]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.07.29-03.17.02:643][598]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.07.29-03.17.02:649][598]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.07.29-03.17.02:649][598]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.07.29-03.17.02:649][598]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.07.29-03.17.02:649][598]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.07.29-03.17.02:649][598]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.07.29-03.17.02:706][598]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.29-03.17.02:715][598]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.29-03.17.02:715][598]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.29-03.17.02:715][598]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.29-03.17.02:734][598]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.29-03.17.02:753][598]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.29-03.17.02:766][598]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.29-03.17.02:774][598]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.29-03.17.02:774][598]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.29-03.17.02:774][598]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.29-03.17.02:787][598]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.29-03.17.02:796][598]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.29-03.17.02:796][598]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.29-03.17.02:807][598]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.29-03.17.02:814][598]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.29-03.17.02:814][598]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.29-03.17.02:814][598]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.29-03.17.02:824][598]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.29-03.17.02:824][598]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.29-03.17.02:829][598]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.29-03.17.02:838][598]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.29-03.17.02:838][598]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.29-03.17.02:838][598]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.07.29-03.17.02:851][598]LogD3D11RHI: Shutdown
+[2020.07.29-03.17.02:851][598]LogD3D11RHI: CleanupD3DDevice
+[2020.07.29-03.17.02:908][598]LogExit: Exiting.
+[2020.07.29-03.17.02:943][598]Log file closed, 07/29/20 11:17:02
